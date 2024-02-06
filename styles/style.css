@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232830;
+}
+
+.nav-bar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 15rem 30px 15rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.title {
+    color: #ff7575;
+    font-size: 4rem;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.subtitle {
+    font-weight: lighter;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 4.5rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.header_image {
+    width: 10rem;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.classification {
+    justify-content: space-evenly;
+    font-style: italic;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    color: #909090;
+    font-size: 1.4rem;
+}
+
+.icon {
+    margin-right: .5rem;
+}
+
+.label-classification {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    margin-right: 1.5rem;
+    color: #909090;
+}
+
+.classification-nav {
+    font-family: recursive;
+    list-style: none;
+    display: flex;
+}
+
+.cards {
+    margin: 94px 0 0 0;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 27rem);
+}
+
+.cards_card {
+    margin: 37px 0 0 0;
+    border-radius: 1rem;
+    width: 390px;
+    height: 439px;
+    background: white;
+    color: white;
+}
+
+.card_text {
+    color: black;
+}
+
+.card_image {
+    margin: 26px;
+    border-radius: 1rem;
+    object-fit: cover;
+    width:337px;
+    height:160px;
+}
+
+.card_title {
+    font-size: 1.4rem;
+    margin: 0 26px;
+    text-align: left;
+    font-family: poppins;
+}
+
+.card_description {
+    margin: 13px 26px 24px 26px;
+}
+
+.card_info {
+    margin: 0 129px 29px 26px;
+}
+
+.point_icon {
+    margin: 0 9px 0 9px
+}
+

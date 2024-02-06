@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'poppins';
+    src: url("/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'recursive';
+    src: url("/fonts/Recursive-Regular.ttf");
+}
